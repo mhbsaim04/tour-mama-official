@@ -2,11 +2,16 @@
 font-family: "Plus Jakarta Sans", sans-serif;
 margin: 0;
 padding: 0;
+box-sizing: border-box;
 }
-        
+
 body{
     min-height: 100vh;
     background-image: linear-gradient(#EBDCFF, #d0fff4);
+}
+
+img {
+  max-width: 100%;
 }
 
 .btn{
@@ -103,7 +108,7 @@ font-weight: bold;
     background-color: floralwhite;
     padding: 61px;
     text-align: center;
-    width: 350px;
+    max-width: 350px;
     border-radius: 30px;
 }
 #service-card img{
@@ -125,6 +130,18 @@ font-weight: bold;
     display: flex;
     gap: 20px;
 }
+
+.story-content{
+   width: 60% ;
+}
+
+.story-image{
+  width: 40%;
+}
+
+.story-content img{
+   width: 100px;
+  }
 
 .story-content h2, 
 .story-content p,
